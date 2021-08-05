@@ -77,9 +77,7 @@ function draw() {
   arrow.display();
   //if Space (32) key is pressed call shoot function of playerArrow
   if(keyCode === 32){
-    //Call shoot() function and pass angle of playerArcher
-    if(keyCode === 32){
-      arrow.shoot(playerArcher.body.angle);
+    
     }
   }
 }
